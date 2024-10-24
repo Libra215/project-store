@@ -1,0 +1,170 @@
+{
+    "stok": [
+        {
+            "kode": "BTO",
+            "judul": "SCRIPT BOT WHASTAPP",
+            "desk": "BOT WHASTAPP PROVIDER DIGI FLAZZ",
+            "harga": "1000",
+            "stok": 3,
+            "stokTerjual": 1,
+            "totalStok": 4,
+            "stokDetail": {
+                "akun": [
+                    {
+                        "email": "stok2@gmail.com",
+                        "password": "akun2"
+                    },
+                    {
+                        "email": "stok3@gmail.com",
+                        "password": "akun3"
+                    },
+                    {
+                        "email": "stok5@gmail.com",
+                        "password": "akun5"
+                    }
+                ]
+            }
+        },
+        {
+            "kode": "SPT1",
+            "judul": "SPOTIFY 3 BUKAN",
+            "desk": "SPOTIFY 3 BULAN",
+            "harga": "800",
+            "stok": 24,
+            "stokTerjual": 22,
+            "totalStok": 46,
+            "stokDetail": {
+                "akun": [
+                    {
+                        "email": "akun4@gmail.com",
+                        "password": "akun4"
+                    },
+                    {
+                        "email": "akun1@gmail.com",
+                        "password": "akun1"
+                    },
+                    {
+                        "email": "akun3@gmail.com",
+                        "password": "akun3"
+                    },
+                    {
+                        "email": "akun4@gmail.com",
+                        "password": "akun4"
+                    },
+                    {
+                        "email": "akun9@gmail.com",
+                        "password": "akun9"
+                    },
+                    {
+                        "email": "akun1@gmail.com",
+                        "password": "akun1"
+                    },
+                    {
+                        "email": "akun2@gmail.com",
+                        "password": "akun2"
+                    },
+                    {
+                        "email": "akun3@gmail.com",
+                        "password": "akun3"
+                    },
+                    {
+                        "email": "akun4@gmail.com",
+                        "password": "akun4"
+                    },
+                    {
+                        "email": "akun5@gmail.com",
+                        "password": "akun5"
+                    },
+                    {
+                        "email": "akun6@gmail.com",
+                        "password": "akun6"
+                    },
+                    {
+                        "email": "akun7@gmail.com",
+                        "password": "akun7"
+                    },
+                    {
+                        "email": "akun8@gmail.com",
+                        "password": "akun8"
+                    },
+                    {
+                        "email": "akun9@gmail.com",
+                        "password": "akun9"
+                    },
+                    {
+                        "email": "akun1@gmail.com",
+                        "password": "akun1"
+                    },
+                    {
+                        "email": "akun2@gmail.com",
+                        "password": "akun2"
+                    },
+                    {
+                        "email": "akun3@gmail.com",
+                        "password": "akun3"
+                    },
+                    {
+                        "email": "akun4@gmail.com",
+                        "password": "akun4"
+                    },
+                    {
+                        "email": "akun5@gmail.com",
+                        "password": "akun5"
+                    },
+                    {
+                        "email": "akun6@gmail.com",
+                        "password": "akun6"
+                    },
+                    {
+                        "email": "akun7@gmail.com",
+                        "password": "akun7"
+                    },
+                    {
+                        "email": "akun8@gmail.com",
+                        "password": "akun8"
+                    },
+                    {
+                        "email": "akun9@gmail.com",
+                        "password": "akun9"
+                    },
+                    {
+                        "email": "akun1@gmail.com",
+                        "password": "akun1"
+                    },
+                    {
+                        "email": "akun2@gmail.com",
+                        "password": "akun2"
+                    },
+                    {
+                        "email": "akun3@gmail.com",
+                        "password": "akun3"
+                    },
+                    {
+                        "email": "akun4@gmail.com",
+                        "password": "akun4"
+                    },
+                    {
+                        "email": "akun5@gmail.com",
+                        "password": "akun5"
+                    },
+                    {
+                        "email": "akun6@gmail.com",
+                        "password": "akun6"
+                    },
+                    {
+                        "email": "akun7@gmail.com",
+                        "password": "akun7"
+                    },
+                    {
+                        "email": "akun8@gmail.com",
+                        "password": "akun8"
+                    },
+                    {
+                        "email": "akun9@gmail.com",
+                        "password": "akun9"
+                    }
+                ]
+            }
+        }
+    ]
+}
