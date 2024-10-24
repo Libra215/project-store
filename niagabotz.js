@@ -1408,6 +1408,7 @@ async function buy(produk, tujuan) {
 
       		let teks =
       		`_🛍️ ORDER CONFIRMATION_\n\n` +
+      		`> _›› Url QRIS:_ ${data.checkout_url_v3}\n\n` +
       		`> _›› Order_ID:_ ${data.unique_code}\n` +
       		`> _›› Kode:_ ${produk}\n` +
       		`> _›› Nama:_ ${nama}\n` +
@@ -1419,11 +1420,13 @@ async function buy(produk, tujuan) {
       		`> _›› Total:_ ${data.amount}\n\n` +
       		`_*Waktu pembayaran hanya 5 menit*_`;
 
-      		let gambr = { url: data.qrcode_url };
-      		let opa = await kris.sendMessage(from, {
-      			image: gambr,
-      			caption: teks,
-      		});
+      		// let gambr = { url: data.qrcode_url };
+      		// let opa = await kris.sendMessage(from, {
+      		// 	image: gambr,
+      		// 	caption: teks,
+      		// });
+
+      		await kris.sendMessage(from, { text: teks }, { quoted: m });
 
           // Pengecekan status pembayaran
           checkPaymentStatus(opa, data.unique_code, produk, tujuan, nama, data.amount);
@@ -4918,7 +4921,7 @@ break;
         	// `Silakan Buka Url dan scan QRIS tersebut sebelum waktu expired 5 menit. Jika sudah melakukan pembayaran, harap tunggu verifikasi.`;
 
         	`_🛍️ DEPOSIT CONFIRMATION_\n\n` +
-        	// `⍟ Url Qris: ${data.checkout_url_v3}\n\n` +
+        	`> _›› Url QRIS:_  ${data.checkout_url_v3}\n\n` +
         	`> _›› Reff ID:_ ${data.unique_code}\n` +
         	`> _›› Status:_ ${data.status}\n` +
         	`> _›› Jumlah Deposit:_ ${nominal}\n` +
@@ -4940,10 +4943,10 @@ break;
       		// `> _›› Total:_ ${data.amount}\n\n` +
       		// `_*Waktu pembayaran hanya 5 menit*_`
 
-      		let gambr = { url: data.qrcode_url };
-      		await kris.sendMessage(from, { image: gambr, caption: teks });
+      		// let gambr = { url: data.qrcode_url };
+      		// await kris.sendMessage(from, { image: gambr, caption: teks });
         	// await kris.sendMessage(from, text: teks)
-        	// await kris.sendMessage(from, { text: teks }, { quoted: m });
+        	await kris.sendMessage(from, { text: teks }, { quoted: m });
 
             // Simpan detail deposit ke file untuk pengecekan status
             let obj = {
