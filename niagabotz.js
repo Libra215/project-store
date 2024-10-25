@@ -1847,6 +1847,7 @@ async function getList(kategori, brand, type) {
 		);
 
 	// Kirim pesan interaktif
+	// await kris.sendMessage(from, text: )
 	await kris.relayMessage(msg.key.remoteJid, msg.message, {
 		messageId: msg.key.id,
 	});
@@ -3968,13 +3969,16 @@ case "asli":
   		{ title: "Tokens Honor OF Kings", description: "Displays Honor OF Kings", id: ".hok" },
   		{ title: "Voucher Arena OF Valor", description: "Displays Arena OF Valor", id: ".aov" },
   		{ title: "Points Valorant", description: "Displays Valorant", id: ".valorant" },
-  		{ title: "Garena Undawn", description: "Displays 8 Ball Pool", id: ".undawn" },
+  		{ title: "Garena Undawn", description: "Displays Undawn", id: ".undawn" },
   		{ title: "The Ants Underground Kingdom", description: "Displays The Ants Coin", id: ".tac" },
   		{ title: "Call of Duty MOBILE", description: "Displays Call of Duty MOBILE", id: ".cod" },
   		{ title: "League of Legends Wild Rift", description: "Displays Call of Duty MOBILE", id: ".lol" },
   		{ title: "Metal Slug Awakening", description: "Displays Ruby Metal Slug Awakening", id: ".metalslug" },
-  		{ title: "Diamonds 8 Ball Pool", description: "Displays 8 Ball Pool", id: ".8pol" },
-  		{ title: "Higgs Domino", description: "Displays Higgs Domino", id: ".higs" }
+  		{ title: "Genshin Impact", description: "Displays Genshin Impact", id: ".genshin" },
+  		{ title: "Diamonds 8 Ball Pool Coins", description: "Displays 8 Ball Pool Coins", id: ".8polcoin" },
+  		{ title: "Diamonds 8 Ball Pool Cash", description: "Displays 8 Ball Pool Cash", id: ".8polcash" },
+  		{ title: "Higgs Domino", description: "Displays Higgs Domino", id: ".higs" },
+  		{ title: "FC Mobile", description: "Displays FC Mobile", id: ".fcm" }
   		]
   	},
   	{
@@ -3982,7 +3986,8 @@ case "asli":
   		highlight_label: "New",
   		rows: [
   		{ title: "Membership Mobile Legends", description: "Displays Weekly Mobile Legends", id: ".memberml" },
-  		{ title: "Membership Freefire", description: "Displays Membership Freefire", id: ".memberff" }
+  		{ title: "Membership Freefire", description: "Displays Membership Freefire", id: ".memberff" },
+  		{ title: "Membership Genshin Impact", description: "Displays Membership Genshin Impact", id: ".membergenshin" }
   		]
   	}
   	];
@@ -5941,6 +5946,30 @@ case "cancel":
       	getList(kategori, brand, type);
       }
       break;
+      case "genshin":
+      {
+      	const kategori = "Games";
+      	const brand = "Genshin Impact";
+      	const type = "Umum";
+      	getList(kategori, brand, type);
+      }
+      break;
+      case "membergenshin":
+      {
+      	const kategori = "Games";
+      	const brand = "Genshin Impact";
+      	const type = "Membership";
+      	getList(kategori, brand, type);
+      }
+      break;
+      case "fcm":
+      {
+      	const kategori = "Games";
+      	const brand = "FC Mobile";
+      	const type = "Umum";
+      	getList(kategori, brand, type);
+      }
+      break;
       case "cod":
       {
       	const kategori = "Games";
@@ -6010,6 +6039,31 @@ case "cancel":
       	const kategori = "Games";
       	const brand = "MOBILE LEGENDS";
       	const type = "Membership";
+      	getList(kategori, brand, type);
+      }
+
+      case "8polcash":
+      {
+      	const kategori = "Games";
+      	const brand = "8 Ball Pool";
+      	const type = "Cash";
+      	getList(kategori, brand, type);
+      }
+      break;
+
+      case "8polcoin":
+      {
+      	const kategori = "Games";
+      	const brand = "8 Ball Pool";
+      	const type = "Coins";
+      	getList(kategori, brand, type);
+      }
+      break;
+      case "8polcoin":
+      {
+      	const kategori = "Games";
+      	const brand = "8 Ball Pool";
+      	const type = "Coins";
       	getList(kategori, brand, type);
       }
       break;
