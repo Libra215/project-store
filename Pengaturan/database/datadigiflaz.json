@@ -10973,7 +10973,7 @@
     "price": 45425,
     "buyer_sku_code": "SMU114",
     "buyer_product_status": true,
-    "seller_product_status": true,
+    "seller_product_status": false,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
