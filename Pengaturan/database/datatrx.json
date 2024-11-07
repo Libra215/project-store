@@ -982,5 +982,17 @@
     "harga": "20155",
     "tujuan": "081913084724",
     "invoice": "2024110710121481030100166364961368152/DNID MOHX HARXX FIRXXXXXX"
+  },
+  {
+    "buyer": "6285735115194@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "bqT7EDRYMyaFzfMxwFUbK1",
+    "jam": "18:12:33",
+    "date": "2024-11-07 11:12:33",
+    "produk": "PLN 100.000",
+    "harga_modal": 100140,
+    "harga": "100240",
+    "tujuan": "86010896073",
+    "invoice": "5417-1612-1290-7182-1055/SURIHAL /R1/900VA/150,3"
   }
 ]
