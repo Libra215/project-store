@@ -12,7 +12,7 @@
   "dependencies": {
     "@adiwajshing/baileys": "npm:@whiskeysockets/baileys@latest",
     "@adiwajshing/keyed-db": "^0.2.4",
-    "@whiskeysockets/baileys": "npm:@xyzendev/baileys@^6.7.7",
+    "@whiskeysockets/baileys": "npm:@xyzendev/baileys@^6.7.8",
     "awesome-phonenumber": "^2.64.0",
     "axios": "^1.7.4",
     "canvas": "^2.8.0",
