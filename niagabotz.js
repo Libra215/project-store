@@ -1752,14 +1752,12 @@ async function getDatabase() {
 }
 
 async function getList(kategori, brand, type) {
-	if (cek("id", m.sender) == null)
-		return reply(`Anda Belum Terdaftar di Database Silahkan ketik #daftar`);
+	if (cek("id", m.sender) == null) {
+		return reply(`Anda Belum Terdaftar di Database. Silahkan ketik #daftar`);
+	}
 
-	const { generateWAMessageFromContent, proto } = require("@whiskeysockets/baileys");
 	const fs = require("fs").promises;
-
 	let database = await getDatabase(); // Mengambil data terbaru dari file JSON
-	let brandToDisplay = brand;
 
 	// Fungsi format uang
 	const formatMoney = (amount) => {
@@ -1784,74 +1782,123 @@ async function getList(kategori, brand, type) {
 	const setprof = cek("role", m.sender).toLowerCase();
 	const profitMultiplier = profit[setprof] || 1;
 
-	// Membuat sections dari data yang diambil dari database JSON
-	let sections = [
-	{
-			title: brandToDisplay, // Title utama
-			rows: filteredProducts.map((item) => {
-				const status = item.seller_product_status;
-				const seller = status ? "✅ Tersedia" : "⛔ Gangguan";
-				const formattedPrice = formatMoney(item.price * profitMultiplier);
-
-				return {
-					header: `${seller} (${item.buyer_sku_code})`, // Menggunakan buyer_sku_code sebagai header
-					title: item.product_name,
-					description: `${formattedPrice}`, // Menambahkan status dan harga ke dalam deskripsi
-					id: `opap ${item.buyer_sku_code}`,
-				};
-			}),
-		},
-		];
-
-	// Buat JSON string untuk buttonParamsJson
-	let buttonParamsJson = JSON.stringify({
-		title: "Klik Disini",
-		sections: sections,
+	// Mengonversi daftar produk menjadi teks biasa
+	let productListText = `*Daftar Produk ${brand}:*\n\n`;
+	filteredProducts.forEach((item) => {
+		const status = item.seller_product_status ? "✅ Tersedia" : "⛔ Gangguan";
+		const formattedPrice = formatMoney(item.price * profitMultiplier);
+		productListText += `*${item.product_name}*\n`;
+		productListText += `Status: ${status}\n`;
+		productListText += `Harga: ${formattedPrice}\n`;
+		productListText += `Kode: ${item.buyer_sku_code}\n\n`;
 	});
 
-	// Buat pesan interaktif
-	let msg = generateWAMessageFromContent(
-		from,
-		{
-			viewOnceMessage: {
-				message: {
-					messageContextInfo: {
-						deviceListMetadata: {},
-						deviceListMetadataVersion: 2,
-					},
-					interactiveMessage: proto.Message.InteractiveMessage.create({
-						body: proto.Message.InteractiveMessage.Body.create({
-							text: "Silahkan Klik Button Disini",
-						}),
-						footer: proto.Message.InteractiveMessage.Footer.create({
-							text: toko,
-						}),
-						nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
-							buttons: [
-							{
-								name: "single_select",
-								buttonParamsJson: buttonParamsJson,
-							},
-							],
-						}),
-						contextInfo: {
-							mentionedJid: [m.sender],
-							forwardingScore: 999,
-							isForwarded: true,
-						},
-					}),
-				},
-			},
-		},
-		{}
-		);
-
-	// Kirim pesan interaktif
-	// await kris.sendMessage(from, text: )
-	await kris.relayMessage(msg.key.remoteJid, msg.message, {
-		messageId: msg.key.id,
-	});
+	// Kirim pesan dalam format teks biasa
+	await kris.sendMessage(from, { text: productListText }, { quoted: m });
 }
+
+
+// async function getList(kategori, brand, type) {
+// 	if (cek("id", m.sender) == null)
+// 		return reply(`Anda Belum Terdaftar di Database Silahkan ketik #daftar`);
+
+// 	const { generateWAMessageFromContent, proto } = require("@whiskeysockets/baileys");
+// 	const fs = require("fs").promises;
+
+// 	let database = await getDatabase(); // Mengambil data terbaru dari file JSON
+// 	let brandToDisplay = brand;
+
+// 	// Fungsi format uang
+// 	const formatMoney = (amount) => {
+// 		return new Intl.NumberFormat("id-ID", {
+// 			style: "currency",
+// 			currency: "IDR",
+// 		}).format(amount);
+// 	};
+
+// 	// Memfilter produk berdasarkan kategori, brand, dan tipe
+// 	let filteredProducts = database.filter(
+// 		(item) =>
+// 		item.category === kategori &&
+// 		item.brand === brand &&
+// 		item.type === type
+// 		);
+
+// 	// Mengurutkan produk berdasarkan harga (termurah ke termahal)
+// 	filteredProducts.sort((a, b) => a.price - b.price);
+
+// 	// Mendapatkan role dan menghitung profit
+// 	const setprof = cek("role", m.sender).toLowerCase();
+// 	const profitMultiplier = profit[setprof] || 1;
+
+// 	// Membuat sections dari data yang diambil dari database JSON
+// 	let sections = [
+// 	{
+// 			title: brandToDisplay, // Title utama
+// 			rows: filteredProducts.map((item) => {
+// 				const status = item.seller_product_status;
+// 				const seller = status ? "✅ Tersedia" : "⛔ Gangguan";
+// 				const formattedPrice = formatMoney(item.price * profitMultiplier);
+
+// 				return {
+// 					header: `${seller} (${item.buyer_sku_code})`, // Menggunakan buyer_sku_code sebagai header
+// 					title: item.product_name,
+// 					description: `${formattedPrice}`, // Menambahkan status dan harga ke dalam deskripsi
+// 					id: `opap ${item.buyer_sku_code}`,
+// 				};
+// 			}),
+// 		},
+// 		];
+
+// 	// Buat JSON string untuk buttonParamsJson
+// 	let buttonParamsJson = JSON.stringify({
+// 		title: "Klik Disini",
+// 		sections: sections,
+// 	});
+
+// 	// Buat pesan interaktif
+// 	let msg = generateWAMessageFromContent(
+// 		from,
+// 		{
+// 			viewOnceMessage: {
+// 				message: {
+// 					messageContextInfo: {
+// 						deviceListMetadata: {},
+// 						deviceListMetadataVersion: 2,
+// 					},
+// 					interactiveMessage: proto.Message.InteractiveMessage.create({
+// 						body: proto.Message.InteractiveMessage.Body.create({
+// 							text: "Silahkan Klik Button Disini",
+// 						}),
+// 						footer: proto.Message.InteractiveMessage.Footer.create({
+// 							text: toko,
+// 						}),
+// 						nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
+// 							buttons: [
+// 							{
+// 								name: "single_select",
+// 								buttonParamsJson: buttonParamsJson,
+// 							},
+// 							],
+// 						}),
+// 						contextInfo: {
+// 							mentionedJid: [m.sender],
+// 							forwardingScore: 999,
+// 							isForwarded: true,
+// 						},
+// 					}),
+// 				},
+// 			},
+// 		},
+// 		{}
+// 		);
+
+// 	// Kirim pesan interaktif
+// 	// await kris.sendMessage(from, text: )
+// 	await kris.relayMessage(msg.key.remoteJid, msg.message, {
+// 		messageId: msg.key.id,
+// 	});
+// }
 
 
 
@@ -4703,156 +4750,191 @@ break;
   	});
   }
   break;
-  case "allmenu":
+
+  case "ketgame": 
   {
-  	if (cek("id", m.sender) == null)
-  		return reply(
-  			`Anda Belum Terdaftar di Database Silahkan ketik #daftar`
-  			);
+  	const guideMessage = 
+  	`╔══✦ *Panduan Produk Game Top Up* ✦══╗\n\n` +
+  	`💡 *Cara Penggunaan:* Ketik singkatan di bawah untuk menampilkan produk yang sesuai.\n\n` +
+  	
+  	`🕹️ *Diamonds Mobile Legends* \n🔹 Ketik: *.ml*\n\n` +
+  	`🕹️ *Diamonds Mobile Legends Global* \n🔹 Ketik: *.mlg*\n\n` +
+  	`🕹️ *Diamonds Freefire* \n🔹 Ketik: *.ff*\n\n` +
+  	`🕹️ *UC Pubg Mobile* \n🔹 Ketik: *.pubg*\n\n` +
+  	`🕹️ *Tokens Honor OF Kings* \n🔹 Ketik: *.hok*\n\n` +
+  	`🕹️ *Voucher Arena OF Valor* \n🔹 Ketik: *.aov*\n\n` +
+  	`🕹️ *Points Valorant* \n🔹 Ketik: *.valorant*\n\n` +
+  	`🕹️ *Garena Undawn* \n🔹 Ketik: *.undawn*\n\n` +
+  	`🕹️ *The Ants Underground Kingdom* \n🔹 Ketik: *.tac*\n\n` +
+  	`🕹️ *Call of Duty MOBILE* \n🔹 Ketik: *.cod*\n\n` +
+  	`🕹️ *League of Legends Wild Rift* \n🔹 Ketik: *.lol*\n\n` +
+  	`🕹️ *Metal Slug Awakening* \n🔹 Ketik: *.metalslug*\n\n` +
+  	`🕹️ *Genshin Impact* \n🔹 Ketik: *.genshin*\n\n` +
+  	`🕹️ *Diamonds 8 Ball Pool Coins* \n🔹 Ketik: *.8polcoin*\n\n` +
+  	`🕹️ *Diamonds 8 Ball Pool Cash* \n🔹 Ketik: *.8polcash*\n\n` +
+  	`🕹️ *Higgs Domino* \n🔹 Ketik: *.higs*\n\n` +
+  	`🕹️ *FC Mobile* \n🔹 Ketik: *.fcm*\n\n` +
 
-  	Anu = ` 🗣️ : *Hay Kak ${pushname} Jika Ada Bug Silahkan Lapor Ke Owner*
+  	`╚════════════════════╝\n\n` +
+  	`✨ *Contoh:* Ketik *.ml* untuk menampilkan produk *Diamonds Mobile Legends.*\n` +
+  	`Happy shopping! 🛒`;
 
-  	║ ╭─❏ *『 INFORMASI 』*
-  	║ ➪ Name :  ${pushname}
-  	║ ➪ Nomor : ${cek("id", m.sender).split("@")[0]}
-  	║ ➪ Role : ${cek("role", m.sender)}
-  	║ ➪ OwnerBotz : ${ownernya}
-  	┗━━━━━━━━━━━━━━━━━━⬣
+	// Kirim pesan panduan ke pengguna
+	await kris.sendMessage(from, { text: guideMessage }, { quoted: m });
 
-  	▮──────★ *MENU STORE*
-  	▮╰➳ *${prefix}topup*
-  	▮╰➳ *${prefix}deposit*
-  	▮╰➳ *${prefix}listtrx*
-  	▮╰➳ *${prefix}upgraderole*
-  	▮╰➳ *${prefix}listdeposit*
-  	▮╰➳ *${prefix}ndepo*
-  	▮╰➳ *${prefix}batal*
-  	▮╰➳ *${prefix}bukti*
-  	▮╰➳ *${prefix}ceksaldo*
-  	▮╰➳ *${prefix}pulsa*
-  	▮╰➳ *${prefix}topupgames*
-  	▮╰➳ *${prefix}kuota*
-  	▮╰➳ *${prefix}pln*
-  	▮╰➳──────────────────★
+}
+break;
 
-  	▮──────★ *DEPOSIT OTOMATIS*
-  	▮╰➳ *${prefix}depopay*
-  	▮╰➳ *${prefix}cekdepo*
-  	▮╰➳ *${prefix}cancel*
-  	▮──────────────────★
+case "allmenu":
+{
+	if (cek("id", m.sender) == null)
+		return reply(
+			`Anda Belum Terdaftar di Database Silahkan ketik #daftar`
+			);
 
-  	▮──────⭓ *ORDER OTP*
-  	▮╰➳ *${prefix}kodenegara*
-  	▮╰➳ *${prefix}listotp*
-  	▮╰➳ *${prefix}buyotp*
-  	▮╰➳ *${prefix}statusotp*
-  	▮╰➳ *${prefix}akunotpweb*
-  	▮──────────────────★
+	Anu = ` 🗣️ : *Hay Kak ${pushname} Jika Ada Bug Silahkan Lapor Ke Owner*
 
-  	▮──────⭓ *MENU OWNER*
-  	▮╰➳ *${prefix}setprofit*
-  	▮╰➳ *${prefix}getdigi*
-  	▮╰➳ *${prefix}saldodigi*
-  	▮╰➳ *${prefix}addsaldo*
-  	▮╰➳ *${prefix}minsaldo*
-  	▮╰➳ *${prefix}rekapsaldo*
-  	▮╰➳ *${prefix}rekaptrx*
-  	▮╰➳ *${prefix}acc*
-  	▮╰➳ *${prefix}tolak*
-  	▮╰➳ *${prefix}ubahrole*
-  	▮╰➳ *${prefix}getip*
-  	▮──────────────────★
-  	`;
-  	let sections = [
-  	{
-  		title: "List Menu 🧾",
-  		highlight_label: "All Menu Lists",
-  		rows: [
-  		{
-  			title: "Menu Topup",
-  			description: `Displays MENU RPG`,
-  			id: ".topupmenu",
-  		},
-  		{
-  			title: "Top-Up Ovo",
-  			description: `Displays Top-Up Ovo`,
-  			id: ".topup-ovo",
-  		},
-  		],
-  	},
-  	];
-  	let listMessage = {
-  		title: "Menu Disini",
-  		sections,
-  	};
+	║ ╭─❏ *『 INFORMASI 』*
+	║ ➪ Name :  ${pushname}
+	║ ➪ Nomor : ${cek("id", m.sender).split("@")[0]}
+	║ ➪ Role : ${cek("role", m.sender)}
+	║ ➪ OwnerBotz : ${ownernya}
+	┗━━━━━━━━━━━━━━━━━━⬣
 
-  	let msg = generateWAMessageFromContent(
-  		from,
-  		{
-  			viewOnceMessage: {
-  				message: {
-  					messageContextInfo: {
-  						deviceListMetadata: {},
-  						deviceListMetadataVersion: 2,
-  					},
-  					interactiveMessage: proto.Message.InteractiveMessage.create({
-  						body: proto.Message.InteractiveMessage.Body.create({
-  							text: Anu,
-  						}),
-  						footer: proto.Message.InteractiveMessage.Footer.create({
-  							text: botname,
-  						}),
-  						header: proto.Message.InteractiveMessage.Header.create({
-  							...(await prepareWAMessageMedia(
-  								{ image: banner },
-  								{ upload: kris.waUploadToServer }
-  								)),
-  							title: ``,
-  							gifPlayback: true,
-  							subtitle: ownername,
-  							hasMediaAttachment: false,
-  						}),
-  						nativeFlowMessage:
-  						proto.Message.InteractiveMessage.NativeFlowMessage.create(
-  						{
-  							buttons: [
-  							{
-  								name: "quick_reply",
-  								buttonParamsJson: `{"display_text":"Cek Saldo","id":"${prefix}ceksaldo"}`,
-  							},
-  							{
-  								name: "quick_reply",
-  								buttonParamsJson: `{"display_text":"Riwayat TopUp","id":"${prefix}listtrx"}`,
-  							},
-  							{
-  								name: "quick_reply",
-  								buttonParamsJson: `{"display_text":"Topup","id":"${prefix}topupmenu"}`,
-  							},
-  							],
-  						}
-  						),
-  						contextInfo: {
-  							mentionedJid: [m.sender],
-  							forwardingScore: 999,
-  							isForwarded: true,
-  							forwardedNewsletterMessageInfo: {
-  								newsletterJid: "1203",
-  								newsletterName: ownername,
-  								serverMessageId: 143,
-  							},
-  						},
-  					}),
-  				},
-  			},
-  		},
-  		{}
-  		);
+	▮──────★ *MENU STORE*
+	▮╰➳ *${prefix}topup*
+	▮╰➳ *${prefix}deposit*
+	▮╰➳ *${prefix}listtrx*
+	▮╰➳ *${prefix}upgraderole*
+	▮╰➳ *${prefix}listdeposit*
+	▮╰➳ *${prefix}ndepo*
+	▮╰➳ *${prefix}batal*
+	▮╰➳ *${prefix}bukti*
+	▮╰➳ *${prefix}ceksaldo*
+	▮╰➳ *${prefix}pulsa*
+	▮╰➳ *${prefix}topupgames*
+	▮╰➳ *${prefix}kuota*
+	▮╰➳ *${prefix}pln*
+	▮╰➳──────────────────★
 
-  	await kris.relayMessage(msg.key.remoteJid, msg.message, {
-  		messageId: msg.key.id,
-  	});
-  }
-  break;
+	▮──────★ *DEPOSIT OTOMATIS*
+	▮╰➳ *${prefix}depopay*
+	▮╰➳ *${prefix}cekdepo*
+	▮╰➳ *${prefix}cancel*
+	▮──────────────────★
+
+	▮──────⭓ *ORDER OTP*
+	▮╰➳ *${prefix}kodenegara*
+	▮╰➳ *${prefix}listotp*
+	▮╰➳ *${prefix}buyotp*
+	▮╰➳ *${prefix}statusotp*
+	▮╰➳ *${prefix}akunotpweb*
+	▮──────────────────★
+
+	▮──────⭓ *MENU OWNER*
+	▮╰➳ *${prefix}setprofit*
+	▮╰➳ *${prefix}getdigi*
+	▮╰➳ *${prefix}saldodigi*
+	▮╰➳ *${prefix}addsaldo*
+	▮╰➳ *${prefix}minsaldo*
+	▮╰➳ *${prefix}rekapsaldo*
+	▮╰➳ *${prefix}rekaptrx*
+	▮╰➳ *${prefix}acc*
+	▮╰➳ *${prefix}tolak*
+	▮╰➳ *${prefix}ubahrole*
+	▮╰➳ *${prefix}getip*
+	▮──────────────────★
+	`;
+	let sections = [
+	{
+		title: "List Menu 🧾",
+		highlight_label: "All Menu Lists",
+		rows: [
+		{
+			title: "Menu Topup",
+			description: `Displays MENU RPG`,
+			id: ".topupmenu",
+		},
+		{
+			title: "Top-Up Ovo",
+			description: `Displays Top-Up Ovo`,
+			id: ".topup-ovo",
+		},
+		],
+	},
+	];
+	let listMessage = {
+		title: "Menu Disini",
+		sections,
+	};
+
+	let msg = generateWAMessageFromContent(
+		from,
+		{
+			viewOnceMessage: {
+				message: {
+					messageContextInfo: {
+						deviceListMetadata: {},
+						deviceListMetadataVersion: 2,
+					},
+					interactiveMessage: proto.Message.InteractiveMessage.create({
+						body: proto.Message.InteractiveMessage.Body.create({
+							text: Anu,
+						}),
+						footer: proto.Message.InteractiveMessage.Footer.create({
+							text: botname,
+						}),
+						header: proto.Message.InteractiveMessage.Header.create({
+							...(await prepareWAMessageMedia(
+								{ image: banner },
+								{ upload: kris.waUploadToServer }
+								)),
+							title: ``,
+							gifPlayback: true,
+							subtitle: ownername,
+							hasMediaAttachment: false,
+						}),
+						nativeFlowMessage:
+						proto.Message.InteractiveMessage.NativeFlowMessage.create(
+						{
+							buttons: [
+							{
+								name: "quick_reply",
+								buttonParamsJson: `{"display_text":"Cek Saldo","id":"${prefix}ceksaldo"}`,
+							},
+							{
+								name: "quick_reply",
+								buttonParamsJson: `{"display_text":"Riwayat TopUp","id":"${prefix}listtrx"}`,
+							},
+							{
+								name: "quick_reply",
+								buttonParamsJson: `{"display_text":"Topup","id":"${prefix}topupmenu"}`,
+							},
+							],
+						}
+						),
+						contextInfo: {
+							mentionedJid: [m.sender],
+							forwardingScore: 999,
+							isForwarded: true,
+							forwardedNewsletterMessageInfo: {
+								newsletterJid: "1203",
+								newsletterName: ownername,
+								serverMessageId: 143,
+							},
+						},
+					}),
+				},
+			},
+		},
+		{}
+		);
+
+	await kris.relayMessage(msg.key.remoteJid, msg.message, {
+		messageId: msg.key.id,
+	});
+}
+break;
 
   // case "otomatis": 
   // {
