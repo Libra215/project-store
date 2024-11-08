@@ -3816,7 +3816,7 @@
     "price": 8865,
     "buyer_sku_code": "IDY23",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -6363,7 +6363,7 @@
     "brand": "MOBILE LEGENDS",
     "type": "Global",
     "seller_name": "BANGJEFF",
-    "price": 113692,
+    "price": 113717,
     "buyer_sku_code": "MLG600",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -9168,7 +9168,7 @@
     "brand": "TELKOMSEL",
     "type": "Umum",
     "seller_name": "SOCIOVO",
-    "price": 145975,
+    "price": 145275,
     "buyer_sku_code": "PT150",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -11676,7 +11676,7 @@
     "multi": true,
     "start_cut_off": "23:55",
     "end_cut_off": "0:5",
-    "desc": "Pulsa Indosat Transfer 10.000 + Masa Aktif 3 Hari"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 100.000",
@@ -11693,7 +11693,7 @@
     "multi": true,
     "start_cut_off": "23:45",
     "end_cut_off": "0:15",
-    "desc": "Pulsa Indosat Transfer 100.000 + Masa Aktif 30 Hari"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 15.000",
@@ -11701,7 +11701,7 @@
     "brand": "INDOSAT",
     "type": "Pulsa Transfer",
     "seller_name": "MITRA MANDIRI INDONESIA",
-    "price": 14664,
+    "price": 14704,
     "buyer_sku_code": "TPI15",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -11710,7 +11710,7 @@
     "multi": true,
     "start_cut_off": "23:30",
     "end_cut_off": "0:30",
-    "desc": "Pulsa Indosat Transfer 15.000 + Masa Aktif 7 Hari"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 150.000",
@@ -11727,7 +11727,7 @@
     "multi": true,
     "start_cut_off": "23:45",
     "end_cut_off": "0:15",
-    "desc": "Pulsa Indosat Transfer 150.000 + Masa Aktif 30 Hari"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 20.000",
@@ -11744,7 +11744,7 @@
     "multi": true,
     "start_cut_off": "23:55",
     "end_cut_off": "0:5",
-    "desc": "Pulsa Indosat Transfer 20.000 + Masa Aktif 7 Hari"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 25.000",
@@ -11761,7 +11761,7 @@
     "multi": true,
     "start_cut_off": "23:30",
     "end_cut_off": "0:15",
-    "desc": "Pulsa Indosat Transfer 25.000 + Masa Aktif 15 Hari"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 30.000",
@@ -11778,7 +11778,7 @@
     "multi": true,
     "start_cut_off": "23:30",
     "end_cut_off": "0:15",
-    "desc": "Pulsa Indosat Transfer 30.000 + Masa Aktif 15 Hari"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 35.000",
@@ -11795,7 +11795,7 @@
     "multi": true,
     "start_cut_off": "23:30",
     "end_cut_off": "0:15",
-    "desc": "-"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 40.000",
@@ -11812,7 +11812,7 @@
     "multi": true,
     "start_cut_off": "23:30",
     "end_cut_off": "0:15",
-    "desc": "Pulsa Indosat Transfer 40.000 + Masa Aktif 15 Hari"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 45.000",
@@ -11823,13 +11823,13 @@
     "price": 42456,
     "buyer_sku_code": "TPI45",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
     "end_cut_off": "0:15",
-    "desc": "-"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 5.000",
@@ -11846,7 +11846,7 @@
     "multi": true,
     "start_cut_off": "23:55",
     "end_cut_off": "0:5",
-    "desc": "Pulsa Indosat Transfer 5.000 + Masa Aktif 3 Hari"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 50.000",
@@ -11863,7 +11863,7 @@
     "multi": true,
     "start_cut_off": "0:0",
     "end_cut_off": "1:0",
-    "desc": "Pulsa Indosat Transfer 50.000 + Masa Aktif 22 Hari"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 55.000",
@@ -11880,7 +11880,7 @@
     "multi": true,
     "start_cut_off": "23:30",
     "end_cut_off": "0:30",
-    "desc": "-"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 60.000",
@@ -11897,7 +11897,7 @@
     "multi": true,
     "start_cut_off": "0:0",
     "end_cut_off": "1:0",
-    "desc": "Pulsa Indosat Transfer 60.000 + Masa Aktif 22 Hari"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 65.000",
@@ -11914,7 +11914,7 @@
     "multi": true,
     "start_cut_off": "23:30",
     "end_cut_off": "0:15",
-    "desc": "-"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 70.000",
@@ -11931,7 +11931,7 @@
     "multi": true,
     "start_cut_off": "0:0",
     "end_cut_off": "1:0",
-    "desc": "Pulsa Indosat Transfer 70.000 + Masa Aktif 22 Hari"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 75.000",
@@ -11948,7 +11948,7 @@
     "multi": true,
     "start_cut_off": "0:0",
     "end_cut_off": "1:0",
-    "desc": "Pulsa Indosat Transfer 75.000 + Masa Aktif 22 Hari"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 80.000",
@@ -11965,7 +11965,7 @@
     "multi": true,
     "start_cut_off": "0:0",
     "end_cut_off": "1:0",
-    "desc": "Pulsa Indosat Transfer 80.000 + Masa Aktif 22 Hari"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 85.000",
@@ -11982,7 +11982,7 @@
     "multi": true,
     "start_cut_off": "23:30",
     "end_cut_off": "0:15",
-    "desc": "-"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Indosat Pulsa Transfer 90.000",
@@ -11999,7 +11999,7 @@
     "multi": true,
     "start_cut_off": "0:0",
     "end_cut_off": "1:0",
-    "desc": "Pulsa Indosat Transfer 90.000 + Masa Aktif 22 Hari"
+    "desc": "Pulsa Transfer"
   },
   {
     "product_name": "Smartfren Pulsa Transfer 10.000",
@@ -12367,7 +12367,7 @@
     "price": 96125,
     "buyer_sku_code": "TPT100",
     "buyer_product_status": true,
-    "seller_product_status": true,
+    "seller_product_status": false,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
