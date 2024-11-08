@@ -1030,5 +1030,17 @@
     "harga": "26005",
     "tujuan": "4871731482498",
     "invoice": "BRIXPLZXWRHT2N7DU (Mothraa.)"
+  },
+  {
+    "buyer": "6285735115194@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "qCF3LMwLZppTbSQHDS9b4k",
+    "jam": "18:08:33",
+    "date": "2024-11-08 11:08:33",
+    "produk": "PLN 50.000",
+    "harga_modal": 50120,
+    "harga": "50220",
+    "tujuan": "32002747114",
+    "invoice": "6907-0483-9738-9367-5417/MATDOLI/R1/1300VA/31.5"
   }
 ]
