@@ -1054,5 +1054,29 @@
     "harga": "100393",
     "tujuan": "5729152043",
     "invoice": "【﻿罗摩】 Ref: VBFFXX1930C131CDF2AC3D15173CD94"
+  },
+  {
+    "buyer": "6285735115194@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "4t6zR7QMcBm54SnDWsUb9W",
+    "jam": "09:13:54",
+    "date": "2024-11-09 02:13:54",
+    "produk": "Indosat Freedom U 5.5 GB 30 Hari",
+    "harga_modal": 32800,
+    "harga": "32996",
+    "tujuan": "085748118299",
+    "invoice": "2000857481182991"
+  },
+  {
+    "buyer": "6285812486745@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "esm2N3FHk8HekSk8m81wdR",
+    "jam": "10:31:11",
+    "date": "2024-11-09 03:31:11",
+    "produk": "Smartfren Data Unlimited Harian 700 MB Berlaku 28 Hari",
+    "harga_modal": 64014,
+    "harga": "64846",
+    "tujuan": "088991825855",
+    "invoice": "201362648180"
   }
 ]
