@@ -488,8 +488,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "Call of Duty Mobile 26CP"
   },
   {
@@ -760,8 +760,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "-"
   },
   {
@@ -794,8 +794,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "-"
   },
   {
@@ -828,8 +828,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "-"
   },
   {
@@ -862,8 +862,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "-"
   },
   {
@@ -896,8 +896,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "-"
   },
   {
@@ -930,8 +930,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "-"
   },
   {
@@ -964,8 +964,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "-"
   },
   {
@@ -1049,8 +1049,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "-"
   },
   {
@@ -1066,8 +1066,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "-"
   },
   {
@@ -1100,8 +1100,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "-"
   },
   {
@@ -1151,8 +1151,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "-"
   },
   {
@@ -1640,7 +1640,7 @@
     "price": 16530,
     "buyer_sku_code": "FF140",
     "buyer_product_status": true,
-    "seller_product_status": true,
+    "seller_product_status": false,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -1997,7 +1997,7 @@
     "price": 8270,
     "buyer_sku_code": "FF70",
     "buyer_product_status": true,
-    "seller_product_status": true,
+    "seller_product_status": false,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -2402,7 +2402,7 @@
     "brand": "GO PAY",
     "type": "Customer",
     "seller_name": "BHOBU",
-    "price": 150090,
+    "price": 150110,
     "buyer_sku_code": "GOPAY150",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -2664,8 +2664,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "Masukan no HP"
   },
   {
@@ -3544,7 +3544,7 @@
     "price": 1180,
     "buyer_sku_code": "HOK8",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -3616,8 +3616,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "Aktivasi Voucher Xtra Hotrod Special 3GB,10hr"
   },
   {
@@ -4313,8 +4313,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "Freedom U 10GB/30hr"
   },
   {
@@ -4483,8 +4483,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "Indosat GIFT DATA 12 GB 30 Hari"
   },
   {
@@ -4857,8 +4857,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "Indosat GIFT DATA 7 GB 7 Hari"
   },
   {
@@ -5146,8 +5146,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "Siaran National Geographic, Nat Geo Wild, My Family, My Cinema, MTV, Rock , Kids TV, dll"
   },
   {
@@ -5163,8 +5163,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "Siaran National Geographic, Nat Geo Wild, My Family, My Cinema, MTV, Rock , Kids TV, dll"
   },
   {
@@ -5428,10 +5428,10 @@
     "brand": "MOBILE LEGENDS",
     "type": "Umum",
     "seller_name": "paygamez",
-    "price": 25976,
+    "price": 26193,
     "buyer_sku_code": "ML100",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -5530,10 +5530,10 @@
     "brand": "MOBILE LEGENDS",
     "type": "Umum",
     "seller_name": "FAUZAN SHOP",
-    "price": 3770,
+    "price": 3811,
     "buyer_sku_code": "ML14",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -5547,10 +5547,10 @@
     "brand": "MOBILE LEGENDS",
     "type": "Umum",
     "seller_name": "paygamez",
-    "price": 36337,
+    "price": 36681,
     "buyer_sku_code": "ML140",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -5666,7 +5666,7 @@
     "brand": "MOBILE LEGENDS",
     "type": "Umum",
     "seller_name": "Kuotadonk",
-    "price": 56129,
+    "price": 56707,
     "buyer_sku_code": "ML222",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -5683,10 +5683,10 @@
     "brand": "MOBILE LEGENDS",
     "type": "Umum",
     "seller_name": "FAUZAN SHOP",
-    "price": 61036,
+    "price": 61800,
     "buyer_sku_code": "ML240",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -5751,7 +5751,7 @@
     "brand": "MOBILE LEGENDS",
     "type": "Umum",
     "seller_name": "Kuotadonk",
-    "price": 76632,
+    "price": 77079,
     "buyer_sku_code": "ML300",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -5802,10 +5802,10 @@
     "brand": "MOBILE LEGENDS",
     "type": "Umum",
     "seller_name": "FAUZAN SHOP",
-    "price": 9237,
+    "price": 9373,
     "buyer_sku_code": "ML36",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -5836,10 +5836,10 @@
     "brand": "MOBILE LEGENDS",
     "type": "Umum",
     "seller_name": "FAUZAN SHOP",
-    "price": 97119,
+    "price": 98365,
     "buyer_sku_code": "ML384",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -5904,10 +5904,10 @@
     "brand": "MOBILE LEGENDS",
     "type": "Umum",
     "seller_name": "FAUZAN SHOP",
-    "price": 113987,
+    "price": 115202,
     "buyer_sku_code": "ML448",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -5921,10 +5921,10 @@
     "brand": "MOBILE LEGENDS",
     "type": "Umum",
     "seller_name": "FAUZAN SHOP",
-    "price": 116919,
+    "price": 118306,
     "buyer_sku_code": "ML460",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -5955,10 +5955,10 @@
     "brand": "MOBILE LEGENDS",
     "type": "Umum",
     "seller_name": "FAUZAN SHOP",
-    "price": 127234,
+    "price": 128750,
     "buyer_sku_code": "ML500",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -5989,10 +5989,10 @@
     "brand": "MOBILE LEGENDS",
     "type": "Umum",
     "seller_name": "FAUZAN SHOP",
-    "price": 130896,
+    "price": 132458,
     "buyer_sku_code": "ML518",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -6077,7 +6077,7 @@
     "price": 162401,
     "buyer_sku_code": "ML642",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -6159,10 +6159,10 @@
     "brand": "MOBILE LEGENDS",
     "type": "Umum",
     "seller_name": "paygamez",
-    "price": 22104,
+    "price": 22808,
     "buyer_sku_code": "ML86",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -6761,8 +6761,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "OVO 125.000"
   },
   {
@@ -7016,8 +7016,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "OVO 55.000"
   },
   {
@@ -7713,8 +7713,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "Reguler"
   },
   {
@@ -7781,8 +7781,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "Reguler"
   },
   {
@@ -8716,8 +8716,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "Reguler"
   },
   {
@@ -9202,7 +9202,7 @@
     "brand": "TELKOMSEL",
     "type": "Umum",
     "seller_name": "PT SELULAR MEDIA INFOTAMA",
-    "price": 193900,
+    "price": 195300,
     "buyer_sku_code": "PT200",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -9440,7 +9440,7 @@
     "brand": "TELKOMSEL",
     "type": "Umum",
     "seller_name": "PT SELULAR MEDIA INFOTAMA",
-    "price": 72850,
+    "price": 72900,
     "buyer_sku_code": "PT75",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -9460,7 +9460,7 @@
     "price": 79125,
     "buyer_sku_code": "PT80",
     "buyer_product_status": true,
-    "seller_product_status": true,
+    "seller_product_status": false,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -10450,8 +10450,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 100.000"
   },
   {
@@ -10484,8 +10484,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 125.000"
   },
   {
@@ -10518,8 +10518,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 150.000"
   },
   {
@@ -10552,8 +10552,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 20.000"
   },
   {
@@ -10569,8 +10569,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 200.000"
   },
   {
@@ -10586,8 +10586,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 25.000"
   },
   {
@@ -10603,8 +10603,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 250.000"
   },
   {
@@ -10620,8 +10620,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 30.000"
   },
   {
@@ -10637,8 +10637,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 300.000"
   },
   {
@@ -10654,8 +10654,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 35.000"
   },
   {
@@ -10671,8 +10671,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 350.000"
   },
   {
@@ -10688,8 +10688,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 40.000"
   },
   {
@@ -10705,8 +10705,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 400.000"
   },
   {
@@ -10722,8 +10722,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 45.000"
   },
   {
@@ -10739,8 +10739,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 5.000"
   },
   {
@@ -10773,8 +10773,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 500.000"
   },
   {
@@ -10790,8 +10790,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 55.000"
   },
   {
@@ -10807,8 +10807,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 60.000"
   },
   {
@@ -10824,8 +10824,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 600.000"
   },
   {
@@ -10875,8 +10875,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 700.000"
   },
   {
@@ -10926,8 +10926,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 800.000"
   },
   {
@@ -10977,8 +10977,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "SHOPEE PAY 900.000"
   },
   {
@@ -11327,7 +11327,7 @@
     "brand": "AXIS",
     "type": "Pulsa Transfer",
     "seller_name": "Omega Tronik",
-    "price": 9988,
+    "price": 10026,
     "buyer_sku_code": "TPA10",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -11361,7 +11361,7 @@
     "brand": "AXIS",
     "type": "Pulsa Transfer",
     "seller_name": "MITRA MANDIRI INDONESIA",
-    "price": 14407,
+    "price": 14487,
     "buyer_sku_code": "TPA15",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -12483,7 +12483,7 @@
     "brand": "TELKOMSEL",
     "type": "Pulsa Transfer",
     "seller_name": "K2 New",
-    "price": 43833,
+    "price": 43839,
     "buyer_sku_code": "TPT45",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -12551,7 +12551,7 @@
     "brand": "TELKOMSEL",
     "type": "Pulsa Transfer",
     "seller_name": "YOT RELOAD",
-    "price": 58088,
+    "price": 58089,
     "buyer_sku_code": "TPT60",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -12796,8 +12796,8 @@
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "22:40",
-    "end_cut_off": "0:15",
+    "start_cut_off": "23:40",
+    "end_cut_off": "0:16",
     "desc": "Masukkan ID Player."
   },
   {
@@ -13200,7 +13200,7 @@
     "price": 26567,
     "buyer_sku_code": "WDP1",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
