@@ -4042,7 +4042,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "0:0",
-    "end_cut_off": "21:2",
+    "end_cut_off": "23:59",
     "desc": "Freedom Internet 12GB/30Hr"
   },
   {
@@ -7607,7 +7607,7 @@
     "price": 98300,
     "buyer_sku_code": "PA100",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -10123,7 +10123,7 @@
     "price": 98300,
     "buyer_sku_code": "PX100",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
