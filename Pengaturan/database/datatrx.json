@@ -1258,5 +1258,29 @@
     "harga": "26693",
     "tujuan": "137773918615657",
     "invoice": "K A W O X"
+  },
+  {
+    "buyer": "6285735115194@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "r6auur4CgSGWsxYn8pejTJ",
+    "jam": "21:37:05",
+    "date": "2024-11-13 14:37:05",
+    "produk": "MOBILELEGEND - 36 Diamond",
+    "harga_modal": 9424,
+    "harga": "9480",
+    "tujuan": "5759764218316",
+    "invoice": "Ref id: FS9B2D43757DDA (salis resek 37)"
+  },
+  {
+    "buyer": "6285735115194@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "9gZQ5i8fRwxvHQyW4tJ7Lu",
+    "jam": "21:59:31",
+    "date": "2024-11-13 14:59:31",
+    "produk": "MOBILELEGEND - 5 Diamond",
+    "harga_modal": 1399,
+    "harga": "1407",
+    "tujuan": "1353966682686",
+    "invoice": "Hafidzt-INVHD72996613112024"
   }
 ]
