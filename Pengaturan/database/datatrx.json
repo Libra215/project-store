@@ -1282,5 +1282,17 @@
     "harga": "1407",
     "tujuan": "1353966682686",
     "invoice": "Hafidzt-INVHD72996613112024"
+  },
+  {
+    "buyer": "6285735115194@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "5eQ7Uy6wcTYxvP7tpGeyEm",
+    "jam": "07:19:55",
+    "date": "2024-11-14 00:19:55",
+    "produk": "Indosat Yellow 2 GB 7 Hari",
+    "harga_modal": 9950,
+    "harga": "10009",
+    "tujuan": "085655718058",
+    "invoice": "41114071953241114071953"
   }
 ]
