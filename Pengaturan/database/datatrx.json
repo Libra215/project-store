@@ -1366,5 +1366,17 @@
     "harga": "9470",
     "tujuan": "5513499558211",
     "invoice": "STOREJUSNLFCKUW/at_fahri"
+  },
+  {
+    "buyer": "6285735200842@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "fxnqEEKc9niF3YP6WC1brV",
+    "jam": "17:01:14",
+    "date": "2024-11-16 10:01:14",
+    "produk": "Indosat 10.000",
+    "harga_modal": 10175,
+    "harga": "10307",
+    "tujuan": "085812486745",
+    "invoice": "03543800000984228372"
   }
 ]
