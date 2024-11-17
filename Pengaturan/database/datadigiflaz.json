@@ -10157,7 +10157,7 @@
     "price": 98300,
     "buyer_sku_code": "PX100",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
