@@ -1426,5 +1426,17 @@
     "harga": "10009",
     "tujuan": "085735115194",
     "invoice": "41118162114241118162114"
+  },
+  {
+    "buyer": "6285735115194@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "rbZHo8TgWrVhuYcKbkgLni",
+    "jam": "18:50:30",
+    "date": "2024-11-18 11:50:30",
+    "produk": "OVO 50.000",
+    "harga_modal": 50495,
+    "harga": "50695",
+    "tujuan": "085735115194",
+    "invoice": "673B29FD2D21A50016B311AE/MO******S DH*******H/085735115194/50000"
   }
 ]
