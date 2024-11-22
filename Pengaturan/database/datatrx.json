@@ -1534,5 +1534,17 @@
     "harga": "100240",
     "tujuan": "50200548233",
     "invoice": "1414-2326-2234-9335-1751/MURIP/R1M/900VA/67.3"
+  },
+  {
+    "buyer": "6285735115194@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "wQ6sEDe5MGHNXUBTJ9NXPx",
+    "jam": "09:17:51",
+    "date": "2024-11-22 02:17:51",
+    "produk": "Indosat 10.000",
+    "harga_modal": 10175,
+    "harga": "10236",
+    "tujuan": "085815030236",
+    "invoice": "03602400003648615977"
   }
 ]
