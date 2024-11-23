@@ -1594,5 +1594,17 @@
     "harga": "26602",
     "tujuan": "12163456118067",
     "invoice": "Q_QnA . RefId: GOT-2411227B4CJPS7MR"
+  },
+  {
+    "buyer": "6285735115194@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "h73ogag1vz26d6PbfTHZWw",
+    "jam": "20:22:12",
+    "date": "2024-11-23 13:22:12",
+    "produk": "PLN 100.000",
+    "harga_modal": 100140,
+    "harga": "100240",
+    "tujuan": "45106382745",
+    "invoice": "3653-7756-5974-8534-2318/EMPI RUSDIANA/R1M/900VA/67.3"
   }
 ]
