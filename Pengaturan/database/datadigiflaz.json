@@ -161,7 +161,7 @@
     "price": 1900,
     "buyer_sku_code": "AOV7",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
