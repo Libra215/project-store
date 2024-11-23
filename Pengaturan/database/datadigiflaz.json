@@ -3736,7 +3736,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "1:0",
     "desc": "Freedom Harian 7GB/7hr"
   },
   {
@@ -3770,7 +3770,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "1:0",
     "desc": "cek di https://www.indosatooredoo.com/portal/id/psyellowplan"
   },
   {
@@ -4025,7 +4025,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "1:0",
     "desc": "Freedom Internet 100GB/30hr"
   },
   {
@@ -6142,7 +6142,7 @@
     "brand": "MOBILE LEGENDS",
     "type": "Umum",
     "seller_name": "KENZO",
-    "price": 21799,
+    "price": 21825,
     "buyer_sku_code": "ML85",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -11429,7 +11429,7 @@
     "brand": "AXIS",
     "type": "Pulsa Transfer",
     "seller_name": "MITRA MANDIRI INDONESIA",
-    "price": 29768,
+    "price": 29611,
     "buyer_sku_code": "TPA30",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -11446,7 +11446,7 @@
     "brand": "AXIS",
     "type": "Pulsa Transfer",
     "seller_name": "MITRA MANDIRI INDONESIA",
-    "price": 34402,
+    "price": 34328,
     "buyer_sku_code": "TPA35",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -11752,7 +11752,7 @@
     "brand": "INDOSAT",
     "type": "Pulsa Transfer",
     "seller_name": "Omah Pulsa",
-    "price": 19125,
+    "price": 19240,
     "buyer_sku_code": "TPI20",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -11840,7 +11840,7 @@
     "price": 42456,
     "buyer_sku_code": "TPI45",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -12384,7 +12384,7 @@
     "price": 97490,
     "buyer_sku_code": "TPT100",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -12457,7 +12457,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "1:0",
     "desc": "Pulsa Telkomsel Rp 30.000 ( Tidak menambah masa aktif)"
   },
   {
@@ -12500,7 +12500,7 @@
     "brand": "TELKOMSEL",
     "type": "Pulsa Transfer",
     "seller_name": "K2 New",
-    "price": 44240,
+    "price": 44168,
     "buyer_sku_code": "TPT45",
     "buyer_product_status": true,
     "seller_product_status": true,
