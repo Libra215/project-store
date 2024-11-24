@@ -1606,5 +1606,29 @@
     "harga": "100240",
     "tujuan": "45106382745",
     "invoice": "3653-7756-5974-8534-2318/EMPI RUSDIANA/R1M/900VA/67.3"
+  },
+  {
+    "buyer": "6285735115194@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "nfb9ZtJtgJNXwTkzC2ex15",
+    "jam": "06:31:13",
+    "date": "2024-11-23 23:31:13",
+    "produk": "Indosat Freedom Internet 3 GB 30 Hari",
+    "harga_modal": 19705,
+    "harga": "19823",
+    "tujuan": "085735115194",
+    "invoice": "03615700028810030157"
+  },
+  {
+    "buyer": "6285735115194@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "1Fz9DP7R19Tv1bZXU2xSL5",
+    "jam": "06:33:52",
+    "date": "2024-11-23 23:33:52",
+    "produk": "Telkomsel Data Mini 1 GB 1 Hari",
+    "harga_modal": 5805,
+    "harga": "5839",
+    "tujuan": "081259959229",
+    "invoice": "03615900000120750719"
   }
 ]
