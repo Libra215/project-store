@@ -705,7 +705,7 @@
     "price": 1065,
     "buyer_sku_code": "DANA1",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,

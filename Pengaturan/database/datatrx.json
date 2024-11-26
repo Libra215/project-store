@@ -1774,5 +1774,17 @@
     "harga": "10140",
     "tujuan": "087767634681",
     "invoice": "TKXL22337306815."
+  },
+  {
+    "buyer": "6285735200842@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "ayYnQRiWY32CEvWHEoLXDS",
+    "jam": "01:47:32",
+    "date": "2024-11-26 18:47:32",
+    "produk": "Xl 20.000",
+    "harga_modal": 21400,
+    "harga": "21678",
+    "tujuan": "087767634681",
+    "invoice": "730305210427990"
   }
 ]
