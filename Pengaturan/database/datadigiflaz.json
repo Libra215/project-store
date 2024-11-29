@@ -4016,16 +4016,16 @@
     "category": "Data",
     "brand": "INDOSAT",
     "type": "Freedom Internet",
-    "seller_name": "CBRS Reload",
-    "price": 106175,
+    "seller_name": "Kawan Sejagat Nusantara",
+    "price": 106040,
     "buyer_sku_code": "IFI100GB",
     "buyer_product_status": true,
-    "seller_product_status": false,
+    "seller_product_status": true,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
-    "start_cut_off": "23:30",
-    "end_cut_off": "1:0",
+    "start_cut_off": "23:45",
+    "end_cut_off": "0:15",
     "desc": "Freedom Internet 100GB/30hr"
   },
   {
@@ -4127,7 +4127,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "-"
   },
   {
@@ -4484,7 +4484,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "Kuota 24 jam, masa aktif 30 hari, bisa digabung dengan paket data yang sudah ada"
   },
   {
@@ -4688,7 +4688,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "Kuota 24 jam, masa aktif 30 hari, bisa digabung dengan paket data yang sudah ada"
   },
   {
@@ -4756,7 +4756,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "Kuota 24 jam, masa aktif 30 hari, bisa digabung dengan paket data yang sudah ada"
   },
   {
@@ -4824,7 +4824,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "Kuota 24 jam, masa aktif 30 hari, bisa digabung dengan paket data yang sudah ada"
   },
   {
@@ -4841,7 +4841,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "Kuota 24 jam, masa aktif 30 hari, bisa digabung dengan paket data yang sudah ada"
   },
   {
@@ -4892,7 +4892,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "Kuota 24 jam, masa aktif 30 hari, bisa digabung dengan paket data yang sudah ada"
   },
   {
@@ -4909,7 +4909,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "Kuota 24 jam, masa aktif 30 hari, bisa digabung dengan paket data yang sudah ada"
   },
   {
@@ -5972,7 +5972,7 @@
     "brand": "MOBILE LEGENDS",
     "type": "Umum",
     "seller_name": "Ciblekstore",
-    "price": 128489,
+    "price": 128722,
     "buyer_sku_code": "ML500",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -6023,7 +6023,7 @@
     "brand": "MOBILE LEGENDS",
     "type": "Umum",
     "seller_name": "Ciblekstore",
-    "price": 14690,
+    "price": 14668,
     "buyer_sku_code": "ML56",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -6091,7 +6091,7 @@
     "brand": "MOBILE LEGENDS",
     "type": "Umum",
     "seller_name": "Ciblekstore",
-    "price": 161513,
+    "price": 161949,
     "buyer_sku_code": "ML642",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -6830,7 +6830,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "OVO 20.000"
   },
   {
@@ -7051,7 +7051,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "OVO 60.000"
   },
   {
@@ -7357,7 +7357,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "Reguler"
   },
   {
@@ -7578,7 +7578,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "Reguler"
   },
   {
@@ -8275,7 +8275,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "Reguler"
   },
   {
@@ -8309,7 +8309,7 @@
     "stock": 0,
     "multi": false,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "Reguler"
   },
   {
@@ -8921,7 +8921,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "Reguler"
   },
   {
@@ -9431,7 +9431,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "Reguler"
   },
   {
@@ -11420,7 +11420,7 @@
     "stock": 0,
     "multi": false,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "-"
   },
   {
@@ -11429,7 +11429,7 @@
     "brand": "AXIS",
     "type": "Pulsa Transfer",
     "seller_name": "MITRA MANDIRI INDONESIA",
-    "price": 19893,
+    "price": 19872,
     "buyer_sku_code": "TPA20",
     "buyer_product_status": true,
     "seller_product_status": true,
@@ -11437,7 +11437,7 @@
     "stock": 0,
     "multi": false,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "-"
   },
   {
@@ -11454,7 +11454,7 @@
     "stock": 0,
     "multi": false,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "-"
   },
   {
@@ -11471,7 +11471,7 @@
     "stock": 0,
     "multi": false,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "-"
   },
   {
@@ -11488,7 +11488,7 @@
     "stock": 0,
     "multi": false,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "-"
   },
   {
@@ -11760,7 +11760,7 @@
     "stock": 0,
     "multi": false,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "Pulsa Transfer"
   },
   {
@@ -12066,7 +12066,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "-"
   },
   {
@@ -12100,7 +12100,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "-"
   },
   {
@@ -12117,7 +12117,7 @@
     "stock": 0,
     "multi": true,
     "start_cut_off": "23:30",
-    "end_cut_off": "0:30",
+    "end_cut_off": "0:35",
     "desc": "-"
   },
   {
@@ -12418,7 +12418,7 @@
     "price": 97900,
     "buyer_sku_code": "TPT100",
     "buyer_product_status": true,
-    "seller_product_status": true,
+    "seller_product_status": false,
     "unlimited_stock": true,
     "stock": 0,
     "multi": true,
@@ -12534,7 +12534,7 @@
     "brand": "TELKOMSEL",
     "type": "Pulsa Transfer",
     "seller_name": "K2 New",
-    "price": 44718,
+    "price": 44741,
     "buyer_sku_code": "TPT45",
     "buyer_product_status": true,
     "seller_product_status": true,
