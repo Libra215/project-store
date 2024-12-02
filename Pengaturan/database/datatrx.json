@@ -1978,5 +1978,17 @@
     "harga": "10327",
     "tujuan": "08155288374",
     "invoice": "03223120106274933731"
+  },
+  {
+    "buyer": "6285735115194@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "b8cgv5S81SAmydeHzuA5d2",
+    "jam": "17:13:29",
+    "date": "2024-12-02 10:13:29",
+    "produk": "PLN 50.000",
+    "harga_modal": 50120,
+    "harga": "50220",
+    "tujuan": "32002747114",
+    "invoice": "0834-6114-0027-1545-7973/MATDOLI/R1/1300VA/31.5"
   }
 ]
