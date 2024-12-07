@@ -2278,5 +2278,17 @@
     "harga": "10130",
     "tujuan": "085735115194",
     "invoice": "2024120610121481030100166204971046067/DNID MOHX FARXX DHAXXXXXXX"
+  },
+  {
+    "buyer": "6285735115194@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "aGcGYj4sq4coyW6YUvEwiC",
+    "jam": "06:18:40",
+    "date": "2024-12-06 23:18:40",
+    "produk": "Indosat 10.000",
+    "harga_modal": 10195,
+    "harga": "10256",
+    "tujuan": "085706484005",
+    "invoice": "03223120706183898343"
   }
 ]
