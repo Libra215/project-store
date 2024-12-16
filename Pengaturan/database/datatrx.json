@@ -2566,5 +2566,17 @@
     "harga": "10054",
     "tujuan": "087767634681",
     "invoice": "241215105502440"
+  },
+  {
+    "buyer": "6285735115194@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "1gJgRqu3pvgyvnrSNpep3r",
+    "jam": "11:13:47",
+    "date": "2024-12-16 04:13:47",
+    "produk": "Go Pay 30.000",
+    "harga_modal": 30150,
+    "harga": "30350",
+    "tujuan": "085779505826",
+    "invoice": "GOPAY - 085779505826/GOPAY ZAM ZAM/Rp.30000/0120241216041343Js2C9oMM95ID"
   }
 ]
