@@ -2614,5 +2614,17 @@
     "harga": "30265",
     "tujuan": "085812486745",
     "invoice": "SHP/085812486745/KXXXXXXXXXXXXXXXXXXXXXXXXXXXXK/30000/SERIAL:REF:2024121619594801000311"
+  },
+  {
+    "buyer": "6285735115194@s.whatsapp.net",
+    "status": "Transaksi Sukses",
+    "ref_id": "2Pxbv6rkkfBgvSNGqHKJWt",
+    "jam": "04:49:25",
+    "date": "2024-12-16 21:49:25",
+    "produk": "Indosat Yellow 1 GB 7 Hari",
+    "harga_modal": 6630,
+    "harga": "6669",
+    "tujuan": "085735115194",
+    "invoice": "03606800028679396880"
   }
 ]
